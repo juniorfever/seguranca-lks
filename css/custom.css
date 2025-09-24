@@ -386,7 +386,7 @@ body{
 
 
 .section-title h1{
-	font-size: 68px;
+	font-size: 54px;
 	font-weight: 700;
 	color: var(--white-color);
 	margin-bottom: 0;
@@ -410,6 +410,7 @@ body{
 .section-title p{
 	margin-top: 20px;
 	margin-bottom: 0;
+	text-align: justify;
 }
 
 .section-title.dark-section h3,
@@ -7412,3 +7413,36 @@ header.main-header .header-sticky.active{
 		height: 350px;
 	}
 }
+
+ /* Estilo do botão flutuante */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 60px;
+            right: 20px;
+            z-index: 1000;
+            background-color: #25D366;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: pulse 2s infinite; /* Aplica a animação */
+        }
+
+        /* Animação de pulso */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
