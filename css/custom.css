@@ -1624,7 +1624,7 @@ header.main-header .header-sticky.active {
 .project-content {
 	position: absolute;
 	right: 30px;
-	left: 30px;
+	left: 60px;
 	bottom: 30px;
 	transform: translateY(50px);
 	opacity: 0;
